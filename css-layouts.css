@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#particles-js {
+    height: 100%;
+    background: grey;
+}
+
+h1 {
+    position: relative;
+    top: -650px;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 4em;
+    text-align: center;
+}
+
+h1{
+    margin:0px;
+  }
+  span.hi{
+    color:#fff;
+    font-family:hind madurai;
+    letter-spacing:1px;
+  font-size:30px;
+  }
+
+.tag {
+    position: relative;
+    top: -800px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2em;
+    text-align: center;
+}
+
+.taganimation {
+    position: relative;
+    top: -700px;
+    right: -550px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2em;
+    text-align: center;
+    display:inline;
+    margin:0px;
+}
+
+.button {
+    text-align: center;
+    cursor: pointer;
+    /*box-shadow: 0 9px #999;*/
+    border: 2px solid white;
+    background-color: grey;
+    color: white;
+    padding: 14px 28px;
+    font-size: 25px;
+  }
+  
+  .button:hover {background-color: black}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  #about {
+      position: relative;
+      top: -570px;
+      right: -170px;
+  }
+
+  #education {
+    position: relative;
+    top: -570px;
+    right: -200px;
+  }
+
+  #skills {
+    position: relative;
+    top: -570px;
+    right: -230px;
+  }
+
+  #projects {
+    position: relative;
+    top: -570px;
+    right: -260px;
+  }
+
+  #resume {
+    position: relative;
+    top: -570px;
+    right: -290px;
+  }
+
+  #contact {
+    position: relative;
+    top: -570px;
+    right: -320px;
+  }
+
+  .logos {
+      position: relative;
+      top: -200px;
+  }
+
+  div.social i{
+    color:#fff;
+    font-size:45px;
+    padding:10px;
+    transition: background 0.3s;
+    position: relative;
+    top: -475px;
+    right: -610px;
+  }
+  div.social i:hover{
+    background:#fff;
+    color:#323840;
+    border-radius:5px;
+  }
