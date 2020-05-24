@@ -1,37 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 body {
+    text-align:center;
+    height:100vh;
+    width: 100vh;
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
 #particles-js {
     height: 100%;
     background: grey;
+
+    z-index: -1;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
 }
 
 h1 {
     position: relative;
-    top: -650px;
+    top: 116px;
+    right: -340px;
     color: black;
     font-family: 'Source Code Pro', monospace;
     font-size: 4em;
-    text-align: center;
-}
 
-h1{
     margin:0px;
-  }
-  span.hi{
-    color:#fff;
-    font-family:hind madurai;
-    letter-spacing:1px;
-  font-size:30px;
-  }
+}
 
 .tag {
     position: relative;
-    top: -800px;
+    top: -42px;
+    right: -340px;
     color: white;
     font-family: 'Source Code Pro', monospace;
     font-size: 2em;
@@ -40,8 +41,8 @@ h1{
 
 .taganimation {
     position: relative;
-    top: -700px;
-    right: -550px;
+    top: 38px;
+    right: -340px;
     color: white;
     font-family: 'Source Code Pro', monospace;
     font-size: 2em;
@@ -64,50 +65,45 @@ h1{
   .button:hover {background-color: black}
   
   .button:active {
-    background-color: #3e8e41;
+    background-color: black;
     box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    /*transform: translateY(4px);*/
   }
 
   #about {
       position: relative;
-      top: -570px;
-      right: -170px;
+      top: 130px;
+      right: -95px;
   }
 
   #education {
     position: relative;
-    top: -570px;
-    right: -200px;
+    top: 130px;
+    right: -125px;
   }
 
   #skills {
     position: relative;
-    top: -570px;
-    right: -230px;
+    top: 130px;
+    right: -155px;
   }
 
   #projects {
     position: relative;
-    top: -570px;
-    right: -260px;
+    top: 130px;
+    right: -185px;
   }
 
   #resume {
     position: relative;
-    top: -570px;
-    right: -290px;
+    top: 69px;
+    right: -695px;
   }
 
   #contact {
     position: relative;
-    top: -570px;
-    right: -320px;
-  }
-
-  .logos {
-      position: relative;
-      top: -200px;
+    top: 69px;
+    right: -735px;
   }
 
   div.social i{
@@ -116,8 +112,8 @@ h1{
     padding:10px;
     transition: background 0.3s;
     position: relative;
-    top: -475px;
-    right: -610px;
+    top: 200px;
+    right: -340px;
   }
   div.social i:hover{
     background:#fff;

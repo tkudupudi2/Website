@@ -1,0 +1,177 @@
+body {
+    text-align:center;
+    height:90vh;
+    width: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(other-hero-bg.gif);
+}
+
+.navbar-custom {
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.nav.navbar-nav li a {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    right: -340px;
+    font-size: 120px;
+    top: 70px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.introcontent {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    right: -340px;
+    font-size: 20px;
+    line-height: 50px;
+    top: 80px;
+}
+
+button.linkedin {
+    padding: 100px 200px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid black;
+    background: linear-gradient(45deg, #fff 50%, lightblue 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    position: relative;
+    color: black;
+    font-size: 30px;
+  }
+  
+  button.linkedin:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(45deg, lightblue 50%, white 50%);
+    z-index: -1;
+  }
+  
+  button.linkedin,
+  button.linkedin:after {
+    background-size: 300%;
+    background-position: 100%;
+    transition: 1s, font-size 0.2s;
+  }
+  
+  button.linkedin:hover,
+  button.linkedin:hover:after {
+    background-position: 0;
+  
+    color: black; /*For IE*/
+  }
+
+  button.github {
+    padding: 100px 200px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid black;
+    background: linear-gradient(45deg, #fff 50%, grey 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    position: relative;
+    color: black;
+    font-size: 30px;
+  }
+  
+  button.github:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(45deg, grey 50%, white 50%);
+    z-index: -1;
+  }
+  
+  button.github,
+  button.github:after {
+    background-size: 300%;
+    background-position: 100%;
+    transition: 1s, font-size 0.2s;
+  }
+  
+  button.github:hover,
+  button.github:hover:after {
+    background-position: 0;
+  
+    color: black; /*For IE*/
+  }
+
+  button.email {
+    padding: 100px 200px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid black;
+    background: linear-gradient(45deg, #fff 50%, rgb(231, 79, 79) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    position: relative;
+    color: black;
+    font-size: 30px;
+  }
+  
+  button.email:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(45deg, rgb(231, 79, 79) 50%, white 50%);
+    z-index: -1;
+  }
+  
+  button.email,
+  button.email:after {
+    background-size: 300%;
+    background-position: 100%;
+    transition: 1s, font-size 0.2s;
+  }
+  
+  button.email:hover,
+  button.email:hover:after {
+    background-position: 0;
+  
+    color: black; /*For IE*/
+  }
+  
+.linkedin {
+    position: relative;
+    right: 144px;
+    top: 80px;
+}
+
+.github {
+    position: relative;
+    top: -165px;
+    right: -330px;
+}
+
+.email {
+    position: relative;
+    top: -412px;
+    right: -790px;
+}
