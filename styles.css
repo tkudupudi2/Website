@@ -1,10 +1,17 @@
-body {
+/*body {
     text-align:center;
     height:90vh;
     width: 100vh;
     margin: 0;
     padding: 0;
     background-image: url(other-hero-bg.gif);
+}*/
+
+body {
+  height: 100%;
+  width: 100%;
+  padding-top: 70px;
+  background-image: url(other-hero-bg.gif);
 }
 
 .navbar-custom {
@@ -20,7 +27,7 @@ body {
     font-size: 20px;
 }
 
-h1 {
+/*h1 {
     font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -31,17 +38,35 @@ h1 {
     top: 70px;
     text-transform: uppercase;
     line-height: 1.2;
+}*/
+
+h1 {
+  margin: 0px;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  font-size: 90px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .introcontent {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 100;
     color: white;
-    position: relative;
-    right: -340px;
     font-size: 20px;
     line-height: 50px;
-    top: 80px;
+    margin: 0px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.socials {
+  text-align: center;
+  margin-top: 50px;
 }
 
 button.linkedin {
@@ -158,7 +183,7 @@ button.linkedin {
     color: black; /*For IE*/
   }
   
-.linkedin {
+/*.linkedin {
     position: relative;
     right: 144px;
     top: 80px;

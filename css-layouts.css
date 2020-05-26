@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-body {
-    text-align:center;
-    height:100vh;
-    width: 100vh;
-    margin: 0;
-    padding: 0;
-}
 
 #particles-js {
     height: 100%;
@@ -18,48 +11,53 @@ body {
     width: 100%;
 }
 
-h1 {
-    position: relative;
-    top: 116px;
-    right: -340px;
-    color: black;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 4em;
+body {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 70px;
+}
 
-    margin:0px;
+h1 {
+  margin: 0px;
+  font-family: 'Source Code Pro', monospace;
+  color: black;
+  font-size: 4em;
 }
 
 .tag {
-    position: relative;
-    top: -42px;
-    right: -340px;
     color: white;
     font-family: 'Source Code Pro', monospace;
     font-size: 2em;
-    text-align: center;
+    margin: 0px;
+    font-weight: lighter;
 }
 
 .taganimation {
-    position: relative;
-    top: 38px;
-    right: -340px;
     color: white;
     font-family: 'Source Code Pro', monospace;
     font-size: 2em;
-    text-align: center;
     display:inline;
     margin:0px;
+    font-weight: lighter;
 }
 
 .button {
     text-align: center;
     cursor: pointer;
-    /*box-shadow: 0 9px #999;*/
     border: 2px solid white;
     background-color: grey;
     color: white;
     padding: 14px 28px;
     font-size: 25px;
+    margin: 10px;
+    margin-top: 90px;
+  }
+
+  .divider {
+    width: 5px;
+    height: auto;
+    display: inline-block;
   }
   
   .button:hover {background-color: black}
@@ -67,53 +65,15 @@ h1 {
   .button:active {
     background-color: black;
     box-shadow: 0 5px #666;
-    /*transform: translateY(4px);*/
   }
 
-  #about {
-      position: relative;
-      top: 130px;
-      right: -95px;
-  }
-
-  #education {
-    position: relative;
-    top: 130px;
-    right: -125px;
-  }
-
-  #skills {
-    position: relative;
-    top: 130px;
-    right: -155px;
-  }
-
-  #projects {
-    position: relative;
-    top: 130px;
-    right: -185px;
-  }
-
-  #resume {
-    position: relative;
-    top: 69px;
-    right: -695px;
-  }
-
-  #contact {
-    position: relative;
-    top: 69px;
-    right: -735px;
-  }
 
   div.social i{
     color:#fff;
     font-size:45px;
     padding:10px;
     transition: background 0.3s;
-    position: relative;
-    top: 200px;
-    right: -340px;
+    margin-top: 90px;
   }
   div.social i:hover{
     background:#fff;
