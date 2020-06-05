@@ -1,0 +1,161 @@
+body {
+	background: #161616 url(pattern_40.gif) top left repeat;
+	margin: 0;
+	padding: 0;
+	font: 12px normal Verdana, Arial, Helvetica, sans-serif;
+	height: 100%;
+	color:#fff;
+}
+
+* {margin: 0; padding: 0; outline: none;}
+
+img {border: none;}
+
+a { 
+	text-decoration:none; 
+	color:#00c6ff;
+}
+
+h1 {
+	font: 4em normal Arial, Helvetica, sans-serif;
+	padding: 20px;	margin: 0;
+	text-align:center;
+	color:#bbb;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto; 
+	overflow: hidden;
+}
+
+.content{
+	/*width:278px;*/
+	width: 90%;
+	margin:0;
+	position:relative;
+	float:left;
+	font-size:20px;
+	line-height:2em;
+    padding:30px 0 30px;
+}
+.col { /*width:280px;*/
+width: 100%; }
+
+#skill { 
+	list-style:none; 
+	padding-top:30px;
+}
+
+#skill li { 
+	margin-bottom:70px; 
+	background:#000; 
+	height:5px; 
+	border-radius:3px; 
+	border-left:1px solid #111; 
+	border-top:1px solid #111; 
+	border-right:1px solid #333; 
+	border-bottom:1px solid #333;  
+}
+
+#skill li em { 
+	position:relative; 
+	top:-30px;
+}
+
+.expand { 
+	height:1px; 
+	margin:2px 0; 
+	background:#2187e7; 
+	position:absolute;
+	box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  div.social i{
+    color:#fff;
+    font-size:45px;
+    padding:10px;
+    transition: background 0.3s;
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    right: -14em;
+  }
+  div.social i:hover{
+    background:#fff;
+    color:#323840;
+    border-radius:5px;
+  }
+
+.java       { width:100%;  -moz-animation:java 2s ease-out;       -webkit-animation:java 2s ease-out;       }
+.csharp        { width:50%;  -moz-animation:csharp 2s ease-out;        -webkit-animation:csharp 2s ease-out;        }
+.sql      { width:50%;  -moz-animation:sql 2s ease-out;      -webkit-animation:sql 2s ease-out;      }
+.c   { width:30%;  -moz-animation:c 2s ease-out;   -webkit-animation:c 2s ease-out;   }
+.git   { width:100%;  -moz-animation:git 2s ease-out;   -webkit-animation:git 2s ease-out;   }
+.python { width:70%; -moz-animation:python 2s ease-out; -webkit-animation:python 2s ease-out; }
+.flask { width:70%; -moz-animation:flask 2s ease-out; -webkit-animation:flask 2s ease-out; }
+.html { width:100%; -moz-animation:html 2s ease-out; -webkit-animation:html 2s ease-out; }
+.css { width:100%; -moz-animation:css 2s ease-out; -webkit-animation:css 2s ease-out; }
+.js { width:20%; -moz-animation:js 2s ease-out; -webkit-animation:js 2s ease-out; }
+.cl { width:90%; -moz-animation:cl 2s ease-out; -webkit-animation:cl 2s ease-out; }
+.vs { width:100%; -moz-animation:vs 2s ease-out; -webkit-animation:vs 2s ease-out; }
+.burp { width:30%; -moz-animation:burp 2s ease-out; -webkit-animation:burp 2s ease-out; }
+.cyber { width:30%; -moz-animation:cyber 2s ease-out; -webkit-animation:cyber 2s ease-out; }
+.ubuntu { width:60%; -moz-animation:ubuntu 2s ease-out; -webkit-animation:ubuntu 2s ease-out; }
+.assembly { width:10%; -moz-animation:assembly 2s ease-out; -webkit-animation:assembly 2s ease-out; }
+
+@-moz-keyframes java       { 0%  { width:0px;} 100%{ width:100%;}  }
+@-moz-keyframes csharp        { 0%  { width:0px;} 100%{ width:50%;}  }
+@-moz-keyframes sql      { 0%  { width:0px;} 100%{ width:50%;}  }
+@-moz-keyframes c   { 0%  { width:0px;} 100%{ width:30%;}  }
+@-moz-keyframes git   { 0%  { width:0px;} 100%{ width:100%;}  }
+@-moz-keyframes python 		{ 0%  { width:0px;} 100%{ width:70%;} }
+@-moz-keyframes flask 		{ 0%  { width:0px;} 100%{ width:70%;} }
+@-moz-keyframes html 		{ 0%  { width:0px;} 100%{ width:100%;} }
+@-moz-keyframes css 		{ 0%  { width:0px;} 100%{ width:100%;} }
+@-moz-keyframes js 		{ 0%  { width:0px;} 100%{ width:20%;} }
+@-moz-keyframes cl 		{ 0%  { width:0px;} 100%{ width:90%;} }
+@-moz-keyframes vs 		{ 0%  { width:0px;} 100%{ width:100%;} }
+@-moz-keyframes burp 		{ 0%  { width:0px;} 100%{ width:30%;} }
+@-moz-keyframes cyber 		{ 0%  { width:0px;} 100%{ width:30%;} }
+@-moz-keyframes ubuntu 		{ 0%  { width:0px;} 100%{ width:60%;} }
+@-moz-keyframes assembly 		{ 0%  { width:0px;} 100%{ width:10%;} }
+
+@-webkit-keyframes java       { 0%  { width:0px;} 100%{ width:100%;}  }
+@-webkit-keyframes csharp        { 0%  { width:0px;} 100%{ width:50%;}  }
+@-webkit-keyframes sql      { 0%  { width:0px;} 100%{ width:50%;}  }
+@-webkit-keyframes c { 0%  { width:0px;} 100%{ width:30%;} }
+@-webkit-keyframes git   { 0%  { width:0px;} 100%{ width:100%;}  }
+@-webkit-keyframes python 		{ 0%  { width:0px;} 100%{ width:70%;} }
+@-webkit-keyframes flask 		{ 0%  { width:0px;} 100%{ width:70%;} }
+@-webkit-keyframes html 		{ 0%  { width:0px;} 100%{ width:100%;} }
+@-webkit-keyframes css 		{ 0%  { width:0px;} 100%{ width:100%;} }
+@-webkit-keyframes js 		{ 0%  { width:0px;} 100%{ width:20%;} }
+@-webkit-keyframes cl 		{ 0%  { width:0px;} 100%{ width:90%;} }
+@-webkit-keyframes vs 		{ 0%  { width:0px;} 100%{ width:100%;} }
+@-webkit-keyframes burp 		{ 0%  { width:0px;} 100%{ width:30%;} }
+@-webkit-keyframes cyber 		{ 0%  { width:0px;} 100%{ width:30%;} }
+@-webkit-keyframes ubuntu 		{ 0%  { width:0px;} 100%{ width:60%;} }
+@-webkit-keyframes assembly 		{ 0%  { width:0px;} 100%{ width:10%;} }

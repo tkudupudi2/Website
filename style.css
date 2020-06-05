@@ -4,20 +4,30 @@ html,
 body {
   height: 100%;
 }
-.navbar-custom {
-  background-color: transparent;
-  width: 100%;
+.navbar {
+  overflow: hidden;
+  background-color: #333;
   position: fixed;
   top: 0;
+  width: 100%;
   z-index: 1;
-  display: inline-block;
 }
 
-.nav.navbar-nav li a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
 body {
   background: #112C30;
   margin: 0px;
@@ -41,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Source Code Pro', monospace;
 }
 /*==========  Sections  ==========*/
 .header {
@@ -49,7 +59,8 @@ h6 {
   position: relative;
   /*z-index: -1;*/
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6fc7d4), to(#39ACBD));
-  background-image: linear-gradient(to bottom, #6fc7d4 0%, #39ACBD 100%);
+  /*background-image: linear-gradient(to bottom, #6fc7d4 0%, #39ACBD 100%);*/
+  background-image: linear-gradient(to bottom, grey 0%, rgb(51, 104, 139) 100%);
 }
 .header .master-head {
   padding: 7% 30px;
@@ -148,7 +159,7 @@ h6 {
   background: green;
 }
 .stem-wrapper.color-white .stem-background {
-  background: #FFF;
+  background: red;
 }
 /*.stem-wrapper.color-red .stem-background {
   background: red;
@@ -351,9 +362,7 @@ div.social i{
   font-size:45px;
   padding: 10px;
   transition: background 0.3s;
-  position: relative;
-  top: -300px;
-  right: -625px;
+  
   z-index: 1;
 }
 div.social i:hover{

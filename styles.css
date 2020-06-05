@@ -10,21 +10,32 @@
 body {
   height: 100%;
   width: 100%;
-  padding-top: 70px;
+  padding-top: 0px;
   background-image: url(other-hero-bg.gif);
 }
 
-.navbar-custom {
-    background-color: transparent;
-    width: 100%;
-    position: fixed;
-    top: 0;
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  /*position: fixed;*/
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
-.nav.navbar-nav li a {
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
 
 /*h1 {
