@@ -1,11 +1,16 @@
-# HELLO WORLD
+# ██╗  ██╗███████╗██╗     ██╗      ██████╗       ██╗    ██╗ ██████╗ ██████╗ ██╗     ██████╗ 
+  ██║  ██║██╔════╝██║     ██║     ██╔═══██╗      ██║    ██║██╔═══██╗██╔══██╗██║     ██╔══██╗
+  ███████║█████╗  ██║     ██║     ██║   ██║      ██║ █╗ ██║██║   ██║██████╔╝██║     ██║  ██║
+  ██╔══██║██╔══╝  ██║     ██║     ██║   ██║      ██║███╗██║██║   ██║██╔══██╗██║     ██║  ██║
+  ██║  ██║███████╗███████╗███████╗╚██████╔╝      ╚███╔███╔╝╚██████╔╝██║  ██║███████╗██████╔╝
+  ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝        ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝ 
 
 Domain for website: https://tkudupudi2.github.io/Website/
 
 Greetings from Tanav Kudupudi. Welcome to my website!
 
 This website is for me to portray my experience and skills to the world in hopes of sharing my knowledge.
-If you would like to contact me feel free to reach out to me at tkudupudi2@gmail.com
+If you would like to contact me feel free to reach out to me at tanav.kudupudi@sjsu.edu.
 
 if (employer) {
     Please reach out to me if you have any positions available
