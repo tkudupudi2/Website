@@ -112,7 +112,7 @@ width: 100%; }
 .java       { width:100%;  -moz-animation:java 2s ease-out;       -webkit-animation:java 2s ease-out;       }
 .csharp        { width:50%;  -moz-animation:csharp 2s ease-out;        -webkit-animation:csharp 2s ease-out;        }
 .sql      { width:50%;  -moz-animation:sql 2s ease-out;      -webkit-animation:sql 2s ease-out;      }
-.c   { width:30%;  -moz-animation:c 2s ease-out;   -webkit-animation:c 2s ease-out;   }
+.c   { width:50%;  -moz-animation:c 2s ease-out;   -webkit-animation:c 2s ease-out;   }
 .git   { width:100%;  -moz-animation:git 2s ease-out;   -webkit-animation:git 2s ease-out;   }
 .python { width:70%; -moz-animation:python 2s ease-out; -webkit-animation:python 2s ease-out; }
 .flask { width:70%; -moz-animation:flask 2s ease-out; -webkit-animation:flask 2s ease-out; }
@@ -129,7 +129,7 @@ width: 100%; }
 @-moz-keyframes java       { 0%  { width:0px;} 100%{ width:100%;}  }
 @-moz-keyframes csharp        { 0%  { width:0px;} 100%{ width:50%;}  }
 @-moz-keyframes sql      { 0%  { width:0px;} 100%{ width:50%;}  }
-@-moz-keyframes c   { 0%  { width:0px;} 100%{ width:30%;}  }
+@-moz-keyframes c   { 0%  { width:0px;} 100%{ width:50%;}  }
 @-moz-keyframes git   { 0%  { width:0px;} 100%{ width:100%;}  }
 @-moz-keyframes python 		{ 0%  { width:0px;} 100%{ width:70%;} }
 @-moz-keyframes flask 		{ 0%  { width:0px;} 100%{ width:70%;} }
@@ -146,7 +146,7 @@ width: 100%; }
 @-webkit-keyframes java       { 0%  { width:0px;} 100%{ width:100%;}  }
 @-webkit-keyframes csharp        { 0%  { width:0px;} 100%{ width:50%;}  }
 @-webkit-keyframes sql      { 0%  { width:0px;} 100%{ width:50%;}  }
-@-webkit-keyframes c { 0%  { width:0px;} 100%{ width:30%;} }
+@-webkit-keyframes c { 0%  { width:0px;} 100%{ width:50%;} }
 @-webkit-keyframes git   { 0%  { width:0px;} 100%{ width:100%;}  }
 @-webkit-keyframes python 		{ 0%  { width:0px;} 100%{ width:70%;} }
 @-webkit-keyframes flask 		{ 0%  { width:0px;} 100%{ width:70%;} }
